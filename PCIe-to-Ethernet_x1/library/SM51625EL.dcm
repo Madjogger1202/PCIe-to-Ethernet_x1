@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM51625EL
+D Transformers Audio & Signal XFMER 1.2A POE
+K
+F https://www.bourns.com/docs/product-datasheets/sm51625el.pdf
+$ENDCMP
+#
+#End Doc Library

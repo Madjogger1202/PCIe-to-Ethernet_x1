@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RTL8125BG-CG
+D FDS86106
+K
+F https://datasheet.lcsc.com/lcsc/2205121200_Realtek-Semicon-RTL8125BG-CG_C3013605.pdf
+$ENDCMP
+#
+#End Doc Library

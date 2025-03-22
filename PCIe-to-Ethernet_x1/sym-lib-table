@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RTL8211F-CG")(type "KiCad")(uri "${KIPRJMOD}/library/RTL8211F-CG.kicad_sym")(options "")(descr ""))
+  (lib (name "RTL8125BG-CG")(type "KiCad")(uri "${KIPRJMOD}/library/RTL8125BG-CG.kicad_sym")(options "")(descr ""))
+  (lib (name "SM51625EL")(type "KiCad")(uri "${KIPRJMOD}/library/SM51625EL.kicad_sym")(options "")(descr ""))
+)
