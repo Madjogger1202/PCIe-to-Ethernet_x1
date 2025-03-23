@@ -6482,28 +6482,6 @@
 			)
 		)
 	)
-	(global_label "PCIe_TX-"
-		(shape input)
-		(at 271.78 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11764ead-4632-4abd-b05b-67ea40fd2c68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.5555 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MX4+"
 		(shape input)
 		(at 114.3 156.21 180)
@@ -6614,6 +6592,28 @@
 			)
 		)
 	)
+	(global_label "PCIe_RX-"
+		(shape input)
+		(at 271.78 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fbdf660-3b29-4252-9fd5-c8c402ec5000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.5555 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TCT4"
 		(shape input)
 		(at 156.21 172.72 90)
@@ -6680,28 +6680,6 @@
 			)
 		)
 	)
-	(global_label "PCIe_RX-"
-		(shape input)
-		(at 325.12 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5215116c-7a9d-4434-9d7e-e0183fda0aa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.3445 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCT1"
 		(shape input)
 		(at 115.57 132.08 180)
@@ -6724,24 +6702,24 @@
 			)
 		)
 	)
-	(global_label "PCIe_TX+"
+	(global_label "PCIe_TX-"
 		(shape input)
-		(at 271.78 118.11 180)
+		(at 325.12 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "60342b39-6d86-4ae3-83b9-ebcbb70d2d52")
+		(uuid "5cf11805-afce-4c5e-bade-c6634480f2db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.6423 118.11 0)
+			(at 333.3445 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7142,6 +7120,28 @@
 			)
 		)
 	)
+	(global_label "PCIe_RX+"
+		(shape input)
+		(at 271.78 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97cb8814-b520-4f81-97bf-31e3d91a4850")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.6423 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCT4"
 		(shape input)
 		(at 101.6 165.1 90)
@@ -7274,6 +7274,28 @@
 			)
 		)
 	)
+	(global_label "PCIe_TX+"
+		(shape input)
+		(at 325.12 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af40c0ee-36e0-4541-9498-bcb40aac6219")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.2577 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX+"
 		(shape input)
 		(at 283.21 118.11 180)
@@ -7375,28 +7397,6 @@
 		(uuid "cecb9872-cfa0-423d-873e-31f1298a0190")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.6576 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PCIe_RX+"
-		(shape input)
-		(at 325.12 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d14197da-01c3-453f-8507-7ce1651e1c44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.2577 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,8 +7629,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 317.5 128.27) (xy 320.04 125.73) (xy 320.04 116.84) (xy 318.77 115.57) (xy 314.96 115.57) (xy 313.69 116.84)
-				(xy 313.69 121.92) (xy 316.23 124.46) (xy 316.23 127)
+				(xy 227.33 109.22) (xy 227.33 132.08) (xy 240.03 132.08) (xy 241.3 130.81) (xy 241.3 111.76) (xy 238.76 109.22)
 			)
 			(stroke
 				(width 0)
@@ -7639,38 +7638,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4622a587-7845-4a53-848c-9fc20b01428c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 105.41 123.19) (xy 105.41 162.56) (xy 109.22 162.56) (xy 109.22 123.19)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6606adbc-a723-47fd-a1f5-9c16854ba775)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 279.4 113.03) (xy 276.86 115.57) (xy 276.86 124.46) (xy 278.13 125.73) (xy 281.94 125.73) (xy 283.21 124.46)
-				(xy 283.21 119.38) (xy 280.67 116.84) (xy 280.67 114.3)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8dcbf854-6fc6-40f1-9ab9-a812f6bb7fbb)
+			(uuid 4c04144a-2e35-4cb6-9624-a408ea69b358)
 		)
 	)
 	(rule_area
@@ -7686,7 +7654,38 @@
 			(fill
 				(type none)
 			)
-			(uuid cdae712b-d297-4375-a259-6da2eb496ca0)
+			(uuid 759dda1f-9d18-405f-b2e5-cbb4c97c5dd9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 279.4 113.03) (xy 276.86 115.57) (xy 276.86 124.46) (xy 278.13 125.73) (xy 281.94 125.73) (xy 283.21 124.46)
+				(xy 283.21 119.38) (xy 280.67 116.84) (xy 280.67 114.3)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 864b104b-f63b-4e87-b404-3265d1fdaef2)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 105.41 123.19) (xy 105.41 162.56) (xy 109.22 162.56) (xy 109.22 123.19)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b48c1811-ba0c-4a5a-8431-68982ebf4814)
 		)
 	)
 	(rule_area
@@ -7701,13 +7700,14 @@
 			(fill
 				(type none)
 			)
-			(uuid fc5d85cc-cb1a-42a4-bb0c-63cb9dc55a47)
+			(uuid c147a40d-388a-43c3-83f6-1fa3c8af6775)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 227.33 109.22) (xy 227.33 132.08) (xy 240.03 132.08) (xy 241.3 130.81) (xy 241.3 111.76) (xy 238.76 109.22)
+				(xy 317.5 128.27) (xy 320.04 125.73) (xy 320.04 116.84) (xy 318.77 115.57) (xy 314.96 115.57) (xy 313.69 116.84)
+				(xy 313.69 121.92) (xy 316.23 124.46) (xy 316.23 127)
 			)
 			(stroke
 				(width 0)
@@ -7716,7 +7716,7 @@
 			(fill
 				(type none)
 			)
-			(uuid fe1b13ab-2a88-421f-a2e0-9352e465b1f8)
+			(uuid d5c0b657-be5a-4007-a291-2238fc21ed37)
 		)
 	)
 	(netclass_flag ""
